@@ -39,23 +39,23 @@ class Layout extends Component {
                             <div class="col-sm-3 col-md-2 sidebar">
                                 <ul class="nav nav-sidebar">
                                     <li>
-                                        <NavLink exact to="/" activeClassName="active">
+                                        <NavLink exact to="/kusari-portal" activeClassName="active">
                                             <i className="fa fa-home"></i>{" "}Home</NavLink>
                                     </li>
                                     <li>
-                                        <NavLink exact to="/predictive-analyst" activeClassName="active">
+                                        <NavLink exact to="/kusari-portal/predictive-analyst" activeClassName="active">
                                             <i className="fa fa-bullseye"></i>{" "}Predictive Analyst</NavLink>
                                     </li>
                                     <li>
-                                        <NavLink exact to="/marketing-analyst" activeClassName="active">
+                                        <NavLink exact to="/kusari-portal/marketing-analyst" activeClassName="active">
                                             <i className="fa fa-briefcase"></i>{" "}Marketing Analyst</NavLink>
                                     </li>
                                     <li>
-                                        <NavLink exact to="/supply-chain" activeClassName="active">
+                                        <NavLink exact to="/kusari-portal/supply-chain" activeClassName="active">
                                             <i className="fa fa-truck"></i>{" "}Supply Chain</NavLink>
                                     </li>
                                     <li>
-                                        <NavLink exact to="/data-engineer" activeClassName="active">
+                                        <NavLink exact to="/kusari-portal/data-engineer" activeClassName="active">
                                             <i className="fa fa-database"></i>{" "}Data Engineer</NavLink>
                                     </li>
                                 </ul>

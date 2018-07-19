@@ -14,11 +14,11 @@ class App extends Component {
       <div className="App">
         <Router>
           <Layout>
-            <Route exact path="/" component={Home}/>
-            <Route exact path="/predictive-analyst" component={PredictiveAnalyst}/>
-            <Route exact path="/marketing-analyst" component={MarketingAnalyst}/>
-            <Route exact path="/supply-chain" component={SupplyChain}/>
-            <Route exact path="/data-engineer" component={DataEngineer}/>
+            <Route exact path="/kusari-portal" component={Home}/>
+            <Route exact path="/kusari-portal/predictive-analyst" component={PredictiveAnalyst}/>
+            <Route exact path="/kusari-portal/marketing-analyst" component={MarketingAnalyst}/>
+            <Route exact path="/kusari-portal/supply-chain" component={SupplyChain}/>
+            <Route exact path="/kusari-portal/data-engineer" component={DataEngineer}/>
           </Layout>
         </Router>
       </div>
